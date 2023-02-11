@@ -29,7 +29,7 @@ app.use("/getUser", getUser);
 app.use("/insertSensorData", insertSensorData); 
 
 
-// Connect to DB
+// Connect to DB's
 databaseRoute();
 connectSql.connectSql();
 

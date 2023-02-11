@@ -1,5 +1,7 @@
 const connectSql = require("./connectSql");
 
+// NOTE: The timestamp should be left as epoch time, really no need to convert to human readable time.
+
 // insert Data into SQL
 
 const insertSensorData = async (req, res) => {
